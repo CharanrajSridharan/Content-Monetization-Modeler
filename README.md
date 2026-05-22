@@ -4,13 +4,13 @@ A machine learning project that predicts YouTube ad revenue based on video perfo
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes a dataset of 122,400 YouTube video records and builds a regression model to predict ad revenue in USD. The final model is deployed as an interactive web application using Streamlit.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 Content Monetization Modeler/
@@ -67,7 +67,7 @@ Key findings from the dataset:
 
 | Feature | Correlation |
 |---|---|
-| watch_time_minutes | **0.989** 🔥 |
+| watch_time_minutes | **0.989**  |
 | likes | 0.146 |
 | views | 0.038 |
 | comments | 0.034 |
@@ -91,7 +91,7 @@ Key findings from the dataset:
 
 | Model | R² Score | RMSE | MAE |
 |---|---|---|---|
-| **Ridge Regression** 🏆 | **0.9526** | **13.4798** | **3.1071** |
+| **Ridge Regression**  | **0.9526** | **13.4798** | **3.1071** |
 | Linear Regression | 0.9526 | 13.4806 | 3.1119 |
 | Gradient Boosting | 0.9523 | 13.5249 | 3.6163 |
 | Decision Tree | 0.9499 | 13.8542 | 4.2311 |
@@ -103,7 +103,7 @@ Key findings from the dataset:
 
 ---
 
-## 🚀 Streamlit Web App
+##  Streamlit Web App
 
 The app allows users to input video stats and get an instant ad revenue prediction.
 
@@ -125,7 +125,7 @@ streamlit run app.py
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 # Clone the repository
@@ -146,7 +146,7 @@ streamlit run app.py
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 | Tool | Purpose |
 |---|---|
@@ -159,7 +159,7 @@ streamlit run app.py
 
 ---
 
-## 📈 Key Learnings
+##  Key Learnings
 
 - Watch time is by far the most important predictor of YouTube ad revenue
 - Simple linear models can outperform complex ones when data has strong linear relationships
